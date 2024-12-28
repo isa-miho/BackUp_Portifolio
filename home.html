@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"> </script>
+</head>
+<body>
+    <header class="menu">
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#info" class="nav-link">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Educação</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link">Trabalhos</a>
+                </li>
+            </ul>
+            <button class="ui-btn">
+                <span>Entre em contato</span>
+            </button>
+        </nav>
+    </header>
+    <main class="content">
+        <section id="info">
+            <div class="carousel">
+                <input type="radio" name="carousel" id="slide1" checked>
+                <input type="radio" name="carousel" id="slide2">
+                <input type="radio" name="carousel" id="slide3">
+                <div class="slides">
+                  <div class="slide">
+                    <img src="imgs/img1.jpg" alt="Slide 1">
+                  </div>
+                  <div class="slide">
+                    <img src="imgs/img2.jpg" alt="Slide 2">
+                  </div>
+                  <div class="slide">
+                    <img src="imgs/img3.jpg" alt="Slide 3">
+                  </div>
+                </div>
+                <div class="navigation">
+                  <label for="slide1"></label>
+                  <label for="slide2"></label>
+                  <label for="slide3"></label>
+                </div>
+            </div>
+            <div class="cta">
+                <section id="slider">
+                    <div class="hero-content">
+                        <button class="nome">
+                            Isabella Sawamura
+                        </button>
+                        <h1 class="inicio">Bem-vindo ao meu <span>portfólio</span>!</h1>
+                        <p class="inicio">Explore meus projetos e experiências profissionais.</p>
+                        <p class="descricao">
+                            Sou uma profissional em constante evolução, gosto de soluções práticas e funcionais. Aqui você encontrará meus projetos e experiências que refletem minha dedicação, visão estratégica e desejo de fazer a diferença. Vamos construir algo incrível juntos?
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

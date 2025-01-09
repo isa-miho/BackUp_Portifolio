@@ -6,8 +6,10 @@
     <title>Portifolio</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="./js/bootstrap.js"> </script>
+    
 </head>
 <body>
     <header class="menu">
@@ -17,14 +19,20 @@
                     <a href="#info" class="nav-link">Sobre mim</a>
                 </li>
                 <li class="nav-item">
+                    <a href="#habilidades" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
                     <a href="#education" class="nav-link">Educação</a>
                 </li>
                 <li class="nav-item">
                     <a href="#work" class="nav-link">Trabalhos</a>
                 </li>
             </ul>
-            <button class="ui-btn">
-                <span>Entre em contato</span>
+            <button class="ui-btn" >
+                <a href="https://wa.me/qr/6HPLCT55GEEHB1">
+                    <span>Entre em contato</span>
+                </a>
+                    
             </button>
         </nav>
     </header>
@@ -66,28 +74,89 @@
                 </section>
             </div>
         </section>
+        
+        <section id="habilidades">
+            <div class="area-cards">
+                <div class="cards">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <span class="skills">Python</span>
+                    <div class="card-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-figma"></i>
+                    </div>
+                    <span class="skills">Figma</span>
+                    <div class="card-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <span class="skills">HTML</span>
+                    <div class="card-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <span class="skills">CSS</span>
+                    <div class="card-star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="education">
             <h2 class="section-title">Educação</h2>
             <div class="escolaridade">
-                <a href="" class="instituto">2022-2024 Ensino Médio</a>
+                <p class="instituto">2022-2024 Ensino Médio</p>
                 <p class="texto">Escola Estadual Rui Barbosa</p>
             </div>
             <div class="escolaridade">
-                <a href="" class="instituto">2018-2024 Curso de Inglês</a>
+                <p class="instituto">2018-2024 Curso de Inglês</p>
                 <p class="texto">Fundação Richard Hugh Fisk</p>
             </div>
             <div class="escolaridade">
-                <a href="" class="instituto">2024 PCAP - Programming Essentials in Python</a>
+                <p class="instituto">2024 PCAP - Programming Essentials in Python</p>
                 <p class="texto">CISCO Networking Academy</p>
             </div>
             <div class="escolaridade">
-                <a href="" class="instituto">2024 JavaScript 1 - Hub Academy</a>
+                <p class="instituto">2024 JavaScript 1 - Hub Academy</p>
                 <p class="texto">CISCO Networking Academy</p>
             </div>
             <div class="escolaridade">
-                <a href="" class="instituto">2024-2025 Técnico de Desenvolvimento de Sistemas</a>
+                <p class="instituto">2024-2025 Técnico de Desenvolvimento de Sistemas</p>
                 <p class="texto">Senac Hub Academy</p>
             </div>
+        </section>
+        <section id="work">
+            
         </section>
     </main>
 </body>

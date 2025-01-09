@@ -2,9 +2,10 @@
     padding: 2rem;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 15px;
+    
 }
 
 .section-title{
@@ -13,19 +14,24 @@
 
 .escolaridade{
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: flex-start;
+    gap: 10px;
 }
 
 .instituto{
     text-decoration: none;
-    color: var(--color-primary-6);
-    
+    color: var(--color-primary-7);
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
 }
 
 .texto{
     text-decoration: none;
     font-size: 17px;
     color: var(--color-primary-2);
+    margin: 0;
 }
 

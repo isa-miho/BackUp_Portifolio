@@ -3,9 +3,9 @@
     padding: 2rem;
     justify-content: center;
     align-items: center;
-    gap: 180px;
+    gap: 200px;
 }
-.inicio span{
+span{
     color: var(--color-primary-7);
 }
 
@@ -146,7 +146,6 @@
     height: 500px;
     position: relative;
     justify-content: left;
-    margin-left: 10px;
 }
 
 .slides {
@@ -160,14 +159,12 @@
     height: 100%;
     position: absolute;
     display: none;
-    
 }
 
 .slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 25px;
 }
 
 .navigation {
@@ -193,4 +190,3 @@
 #slide3:checked ~ .slides .slide:nth-child(3) {
   display: block;
 }
-

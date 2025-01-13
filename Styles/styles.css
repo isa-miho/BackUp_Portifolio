@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarante&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-@import url(home.css);
-
-
-:root{
+@import url(info.css);
+@import url(education.css);
+@import url(work.css);
+@import url(habilidades.css);
+:root {
     --color-primary-1: #111011; /* Preto profundo */
     --color-primary-2: #FFF5F5; /* Branco rosado */
     --color-primary-3: #2F4858; /* Azul acinzentado */
     --color-primary-4: #325077; /* Azul escuro */
+
     --color-primary-5: #E51D66; /* Rosa vibrante */
     --color-primary-6: #BD3689; /* Rosa médio */
     --color-primary-7: #894A97; /* Roxo suave */
     --color-primary-8: #55518F; /* Roxo escuro */
-    
+
     --color-neutra-1: #7a7a7a;
     --color-neutra-2: #efefef;
+}
+a{
+  text-decoration: none;
 }
 
 
 body{
     background-color: var(--color-primary-1);
     color: var(--color-primary-2);
-    margin: 0;
-    font-family: 'Lora',sans-serif;
-    font-weight: 300;
+    margin:0;
+    font-family: 'Lora', sans-serif;
 }
 
 .menu{
@@ -30,15 +34,16 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    color: var(--color-primary-2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-bar{
-    width: 100%;
+    width:100%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: right;
+    gap: 20px;
 }
 
 .nav-list{
@@ -46,15 +51,16 @@ body{
     list-style: none;
     gap: 20px;
 }
+
 .nav-link{
     margin: 10px;
     gap: 20px;
     text-decoration: none;
     color: var(--color-primary-2);
-    font-weight: 400;
+    font-weight: bold;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: var(--color-primary-5);
 }
 
@@ -73,11 +79,9 @@ body{
     /* 👆 this field should not be empty */
     --font-weight: 600;
     --font-family: 'Lora', sans-serif;
-  }
-  
-  /* button settings 👆 */
-  
-  .ui-btn {
+}
+
+.ui-btn {
     box-sizing: border-box;
     padding: var(--btn-padding);
     display: flex;
@@ -92,39 +96,40 @@ body{
     box-shadow: var(--btn-shadow);
     border-radius: 10px;
     border: 2px solid #3a2a36;
-  }
+    margin-right: 25px;
+}
   
-  .ui-btn span {
+.ui-btn span {
     letter-spacing: var(--btn-letter-spacing);
     transition: var(--btn-transition);
     box-sizing: border-box;
     position: relative;
     background: inherit;
-  }
+}
   
-  .ui-btn span::before {
+.ui-btn span::before {
     box-sizing: border-box;
     position: absolute;
     content: "";
     background: inherit;
-  }
+}
   
-  .ui-btn:hover, .ui-btn:focus {
+.ui-btn:hover, .ui-btn:focus {
     background: var(--btn-default-bg);
     box-shadow: 0px 0px 10px 0px rgba(189,54,137,0.5);
     border: 2px solid var(--color-primary-5);
     ;
-  }
+}
   
-  .ui-btn:hover span, .ui-btn:focus span {
+.ui-btn:hover span, .ui-btn:focus span {
     color: var(--hover-btn-color);
-  }
+}
   
   .ui-btn:hover span::before, .ui-btn:focus span::before {
     animation: chitchat linear both var(--btn-animation-duration);
-  }
+}
   
-  @keyframes chitchat {
+@keyframes chitchat {
     0% {
       content: "#";
     }
@@ -170,7 +175,7 @@ body{
     }
   
     55% {
-      content: ";1}]";
+      content: "\;1}]";
     }
   
     60% {
@@ -217,4 +222,4 @@ body{
       content: "";
       right: 0;
     }
-  }
+}

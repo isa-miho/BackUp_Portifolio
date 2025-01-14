@@ -69,7 +69,9 @@
     color: rgba(255, 255, 255, 0.7);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
-  
+
+
+
 .title {
     opacity: 0;
     transition: 300ms ease-in-out;

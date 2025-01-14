@@ -4,9 +4,15 @@
     padding: 2rem;
     justify-content: center;
     align-items: center;
-    gap: 180px;
+    gap: 10px;
     align-content: center;
+    flex-direction: column;
 }
+.section-title{
+  justify-content: center;
+  align-items: center;
+}
+
 .area-cards {
     display: flex;
     flex-direction: row; 

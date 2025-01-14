@@ -1,10 +1,11 @@
 #education{
-    padding: 2rem;
+
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     gap: 15px;
+
     
 }
 
@@ -17,6 +18,7 @@
     align-items: baseline;
     justify-content: flex-start;
     gap: 10px;
+    
 }
 
 .instituto{

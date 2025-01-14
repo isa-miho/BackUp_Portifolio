@@ -27,6 +27,11 @@ body{
     color: var(--color-primary-2);
     margin:0;
     font-family: 'Lora', sans-serif;
+    
+}
+
+.content{
+  padding: 40px 10%;
 }
 
 .menu{
@@ -175,7 +180,7 @@ body{
     }
   
     55% {
-      content: "\;1}]";
+      content: ";1}]";
     }
   
     60% {
@@ -223,3 +228,30 @@ body{
       right: 0;
     }
 }
+
+
+@media screen and (max-width: 1200px){
+  /* Informações */
+  #info{
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* Skills */
+  #habilidades{
+    flex-direction: column;
+  }
+  /* Education */
+  #education{
+    flex-direction: column;
+  }
+  /* Work */
+  #work{
+    flex-direction: column;
+  }
+
+  /* Nav list */
+   .nav-list{
+    display: none;
+   }
+}
+
